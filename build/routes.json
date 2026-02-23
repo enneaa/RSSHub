@@ -74507,6 +74507,44 @@
     "url": "www.lens.xyz",
     "lang": "en"
   },
+  "lephoceen": {
+    "routes": {
+      "/chrono": {
+        "path": "/chrono",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/lephoceen/chrono",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "lephoceen.fr/chrono"
+            ],
+            "target": "/chrono"
+          }
+        ],
+        "name": "Fil Info Le Phocéen (Chrono)",
+        "maintainers": [
+          "Loopy03"
+        ],
+        "location": "chrono.ts",
+        "module": "() => import('@/routes/lephoceen/chrono.ts')"
+      }
+    },
+    "name": "Le Phocéen",
+    "apiRoutes": {},
+    "url": "lephoceen.fr",
+    "description": "Actualités de l'Olympique de Marseille du site lephocéen.fr"
+  },
   "letterboxd": {
     "routes": {
       "/:username/watchlist": {
